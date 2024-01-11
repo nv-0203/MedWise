@@ -4,16 +4,16 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('/Users/nufailvhora/Desktop/Projects/MedWise/Saved Models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('Saved Models/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('/Users/nufailvhora/Desktop/Projects/MedWise/Saved Models/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('Saved Models/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('/Users/nufailvhora/Desktop/Projects/MedWise/Saved Models/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('Saved Models/parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
     # Adding a larger font heading for "MedWise"
-    st.image('/Users/nufailvhora/Desktop/Projects/MedWise/Images/img1.jpeg', width=200)
+    st.image('Images/img1.jpeg', width=200)
     #st.title('MedWise')
     # Adding a smaller font for "Multiple Disease Prediction System"
     #st.markdown('*Multiple Disease Prediction System*')
