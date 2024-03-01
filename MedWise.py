@@ -166,71 +166,71 @@ if selected == "Parkinsons Prediction":
     col1, col2, col3, col4, col5 = st.columns(5)
 
     with col1:
-        fo = st.text_input('MDVP:Fo(Hz)')
+        fo = st.text_input('MDVP:Fo(Hz) - Average vocal fundamental frequency')
 
     with col2:
-        fhi = st.text_input('MDVP:Fhi(Hz)')
+        fhi = st.text_input('MDVP:Fhi(Hz) - Maximum vocal fundamental frequency')
 
     with col3:
-        flo = st.text_input('MDVP:Flo(Hz)')
+        flo = st.text_input('MDVP:Flo(Hz) - Minimum vocal fundamental frequency')
 
     with col4:
-        Jitter_percent = st.text_input('MDVP:Jitter(%)')
+        Jitter_percent = st.text_input('MDVP:Jitter(%) - Measure of variation in fundamental frequency (%)')
 
     with col5:
-        Jitter_Abs = st.text_input('MDVP:Jitter(Abs)')
+        Jitter_Abs = st.text_input('MDVP:Jitter(Abs) - Measure of variation in fundamental frequency (Absolute)')
 
     with col1:
-        RAP = st.text_input('MDVP:RAP')
+        RAP = st.text_input('MDVP:RAP - Measure of variation in fundamental frequency (Relative Average Perturbation)')
 
     with col2:
-        PPQ = st.text_input('MDVP:PPQ')
+        PPQ = st.text_input('MDVP:PPQ - Measure of variation in fundamental frequency (Five-Point Period Perturbation Quotient)')
 
     with col3:
-        DDP = st.text_input('Jitter:DDP')
+        DDP = st.text_input('Jitter:DDP - Measure of variation in fundamental frequency (Jitter: Difference, Delta, or DDP)')
 
     with col4:
-        Shimmer = st.text_input('MDVP:Shimmer')
+        Shimmer = st.text_input('MDVP:Shimmer - Measure of variation in amplitude')
 
     with col5:
-        Shimmer_dB = st.text_input('MDVP:Shimmer(dB)')
+        Shimmer_dB = st.text_input('MDVP:Shimmer(dB) - Measure of variation in amplitude (dB)')
 
     with col1:
-        APQ3 = st.text_input('Shimmer:APQ3')
+        APQ3 = st.text_input('Shimmer:APQ3 - Measure of variation in amplitude (APQ3)')
 
     with col2:
-        APQ5 = st.text_input('Shimmer:APQ5')
+        APQ5 = st.text_input('Shimmer:APQ5 - Measure of variation in amplitude (APQ5)')
 
     with col3:
-        APQ = st.text_input('MDVP:APQ')
+        APQ = st.text_input('MDVP:APQ - Measure of variation in amplitude')
 
     with col4:
-        DDA = st.text_input('Shimmer:DDA')
+        DDA = st.text_input('Shimmer:DDA - Measure of variation in amplitude (DDA)')
 
     with col5:
-        NHR = st.text_input('NHR')
+        NHR = st.text_input('NHR - Measure of ratio of noise to tonal components in the voice')
 
     with col1:
-        HNR = st.text_input('HNR')
+        HNR = st.text_input('HNR - Measure of ratio of noise to tonal components in the voice')
 
     with col2:
-        RPDE = st.text_input('RPDE')
+        RPDE = st.text_input('RPDE - Nonlinear dynamical complexity measure')
 
     with col3:
-        DFA = st.text_input('DFA')
+        DFA = st.text_input('DFA - Signal fractal scaling exponent')
 
     with col4:
-        spread1 = st.text_input('spread1')
+        spread1 = st.text_input('spread1 - Nonlinear measure of fundamental frequency variation')
 
     with col5:
-        spread2 = st.text_input('spread2')
+        spread2 = st.text_input('spread2 - Nonlinear measure of fundamental frequency variation')
 
     with col1:
-        D2 = st.text_input('D2')
+        D2 = st.text_input('D2 - Nonlinear dynamical complexity measure')
 
     with col2:
-        PPE = st.text_input('PPE')
-
+        PPE = st.text_input('PPE - Nonlinear measure of fundamental frequency variation')
+        
     # code for Prediction
     parkinsons_diagnosis = ''
 
