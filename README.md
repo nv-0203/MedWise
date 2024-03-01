@@ -7,8 +7,8 @@ Welcome to MedWise, a web application for predicting Diabetes, Parkinson's Disea
 MedWise is designed to predict three different diseases using specific machine learning models:
 
 - Diabetes Prediction using [Random Forest Classifier](Trained%20Models/diabetes.ipynb)  
-- Heart Disease Prediction using [Linear SVM Model](Trained%20Models/heart.ipynb)  
-- Parkinson's Prediction using [Logistic Regression Model](Trained%20Models/Parkinsons.ipynb) 
+- Heart Disease Prediction using [Logistic Regression Model](Trained%20Models/heart.ipynb)  
+- Parkinson's Prediction using [Linear SVM Model](Trained%20Models/Parkinsons.ipynb) 
  
 
 ## Usage
