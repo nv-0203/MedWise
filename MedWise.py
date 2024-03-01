@@ -91,7 +91,7 @@ if selected == 'Heart Disease Prediction':
 
     # page title
     st.title('Heart Disease Prediction ')
-    st.markdown("<p style='font-size: 24px;'> (Using Linear SVM Model) </p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 24px;'> (Using Logistic Regression) </p>", unsafe_allow_html=True)
     st.markdown("<div style='padding-bottom: 20px;'></div>", unsafe_allow_html=True)
 
     col1, col2, col3 = st.columns(3)
@@ -160,7 +160,7 @@ if selected == "Parkinsons Prediction":
 
     # page title
     st.title('Parkinsons Prediction ')
-    st.markdown("<p style='font-size: 24px;'> (Using Logistic Regression Model) </p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 24px;'> (Using Linear SVM) </p>", unsafe_allow_html=True)
     st.markdown("<div style='padding-bottom: 20px;'></div>", unsafe_allow_html=True)
 
     col1, col2, col3, col4, col5 = st.columns(5)
