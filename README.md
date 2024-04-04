@@ -6,9 +6,9 @@ Welcome to MedWise, a web application for predicting Diabetes, Parkinson's Disea
 
 MedWise is designed to predict three different diseases using specific machine learning models:
 
-- Diabetes Prediction using [Random Forest Classifier](Trained%20Models/diabetes.ipynb)  
-- Heart Disease Prediction using [Logistic Regression Model](Trained%20Models/heart.ipynb)  
-- Parkinson's Prediction using [Linear SVM Model](Trained%20Models/Parkinsons.ipynb) 
+- Diabetes Prediction using a [Soft Voting Classifier](Trained%20Models/diabetes.ipynb)  
+- Heart Disease Prediction using a [Bagging Ensembler](Trained%20Models/heart.ipynb)  built on Logistic Regression Model
+- Parkinson's Prediction using a [Stacking Classifier](Trained%20Models/Parkinsons.ipynb) with KNN, SVC and Random Forest as base Models, Logistic Regression as the meta model
  
 
 ## Usage
@@ -20,7 +20,9 @@ The user interface is intuitive and user-friendly, leveraging the Streamlit Opti
 
 - **streamlit**: Enabled the creation of a user-friendly web application. Leveraged Streamlit's simple and intuitive API to design the user interface.
 
-- **scikit-learn**: Provided the implementation of machine learning models. The Random Forest Classifier, Linear SVM Model, and Logistic Regression Model are all implemented using scikit-learn.
+- **scikit-learn**: used in Parkinson's Prediction. The Random Forest Classifier, Linear SVM Model, KNN and Logistic Regression Model are all implemented and stacked using scikit-learn.
+  
+- **pycaret**: used in Heart Disease and Diabetes Prediction. Soft Voting Ensembler and Bagging are implemented using it
 
 - **pickle**: Employed in MedWise for model persistence. After training the machine learning models, they are serialized using pickle and saved to disk. This allows for quick and easy loading of pre-trained models within the Streamlit app, ensuring that predictions can be made without the need for retraining each time the application is launched.
 
