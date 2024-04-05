@@ -1,5 +1,7 @@
 # MedWise - A Disease Prediction Streamlit App
 
+This is the work of Nufail Vhora (2k21/CO/319) and Paras Arun (2k21/CO/322) of Delhi Technological University
+
 Welcome to MedWise, a web application for predicting Diabetes, Parkinson's Disease, and Heart Disease. This project utilizes custom machine learning models seamlessly integrated into a Streamlit web app to provide efficient predictions.
 
 ## Overview
